@@ -1,0 +1,140 @@
+.home__container {
+  background-color: rgb(233, 231, 248);
+  height: 92.25vh;
+  overflow-x: hidden;
+}
+
+.flex__container {
+  display: flex;
+  padding-top: 8rem;
+}
+
+.flex__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flex__text {
+  padding-left: 5rem;
+}
+
+.flex__text h1 {
+  font-size: 4vw;
+  text-decoration: underline;
+}
+
+.flex__text p {
+  margin-left: 0.25rem;
+  font-size: 1.25vw;
+  font-weight: 600;
+}
+
+.flex__links p {
+  margin-left: 1.5rem;
+  font-size: 1.25vw;
+  font-weight: 800;
+}
+
+.flex__links a {
+  margin-left: 1.5rem;
+  font-size: 1.25vw;
+  font-weight: 800;
+  color: gray;
+}
+
+.flex__image {
+  position: relative;
+  top: 15vh;
+  bottom: 0;
+}
+.img {
+  transform: scale(1.25);
+}
+
+.flex__links {
+  position: relative;
+  top: 5rem;
+}
+
+.mobile__text {
+  display: none;
+}
+
+.shop__button {
+  background-color: rgb(112, 215, 227);
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 18px 22px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .flex__container {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .desktop__text {
+    display: none;
+  }
+  .mobile__text {
+    display: inline;
+  }
+  .flex__text {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .flex__text h1 {
+    font-size: 12vw;
+    text-decoration: underline;
+  }
+  .flex__text a {
+    margin-left: 0.75rem;
+  }
+
+  .flex__text p {
+    margin-right: 0.25rem;
+    font-size: 4vw;
+    color: grey;
+    margin-left: 0rem;
+  }
+
+  .flex__links {
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .flex__links p {
+    margin-left: 0rem;
+    font-size: 4vw;
+  }
+  .flex__links a {
+    margin-left: 0rem;
+    margin-right: 1rem;
+    font-size: 4vw;
+  }
+
+  .shop__button {
+    background-color: rgb(112, 215, 227);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 14px 18px;
+    border: none;
+  }
+  .flex__image {
+    position: relative;
+    bottom: 0;
+  }
+  .img {
+    overflow-y: hidden;
+    max-width: 100%;
+    max-height: 70%;
+  }
+}

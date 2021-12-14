@@ -1,0 +1,34 @@
+.shop {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  text-align: center;
+}
+.but {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  background-color: #f0c14b;
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shopContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .shopContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .productContainer {
+    max-width: 50%;
+    margin: 1rem;
+  }
+}
