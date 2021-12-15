@@ -31,17 +31,22 @@
   font-weight: 600;
 }
 
-.flex__links p {
+.desktop__text {
   margin-left: 1.5rem;
   font-size: 1.25vw;
-  font-weight: 800;
+  font-weight: 400;
+  color: gray !important;
+}
+
+.flex__links p {
+  margin-left: 1.5rem;
 }
 
 .flex__links a {
   margin-left: 1.5rem;
   font-size: 1.25vw;
   font-weight: 800;
-  color: gray;
+  color: gray !important;
 }
 
 .flex__image {

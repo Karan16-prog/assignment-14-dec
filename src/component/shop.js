@@ -40,7 +40,7 @@ const Shop = () => {
             }
         }
         getProduct();
-        handleScrollPosition();
+        //handleScrollPosition();
     })
 
     console.log(data.length);
